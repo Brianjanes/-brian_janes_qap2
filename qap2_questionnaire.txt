@@ -7,9 +7,19 @@ You are allowed to complete the assessment problems below in whatever way you ca
 1. How many hours did it take you to complete this assessment? (Please keep try to keep track of how many hours you have spent working on each individual part of this assessment as best you can - an estimation is fine; we just want a rough idea.)
 Answer: [your answers should be formatted like this]…
 
+Answer: [I spent abnout 5 or 6 hours on this assignment.]
+
 1. What online resources you have used? (My lectures, YouTube, Stack overflow etc.)
 Did you need to ask any of your friends in solving the problems. (If yes, please mention name of the friend. They must be amongst your class fellows.)
 
+Answer: [I used your lectures, stack overflow, and chatGPT to fomplete this assignment.]
+
 3. Did you need to ask questions to any of your instructors? If so, how many questions did you ask (or how many help sessions did you require)?
 
+Answer: [I asked Noman for clarification on one question, maybe about 15 minutes.]
+
 4. Rate (subjectively) the difficulty of Making this all! from your own perspective, and whether you feel confident that you can solve a similar but different problem requiring some of the same techniques in the future now that you’ve completed this one.
+
+Answer: [This was a bit more difficult than the previous assignment. I am still having issues reading the problems effectively and understanding what is being asked. I am confident I can solve more problems like this using the same techniques.
+
+It would be nice if test cases were clearly defined with the functions that are pre-made as a part of the problems. I also still personally think it's valuable to write plainly something like: "Complete the below function - it is expected to take x arguments, and it is for this purpose, expected return values, etc."]

@@ -952,5 +952,9 @@ function buildUrl(query, order, count, license) {
 
 console.log();
 console.log("Problem 10:");
-console.log(buildUrl("hello brian", "ascending", 25, "cc-by")); // Expected: https://api.inaturalist.org/v2/observations?query=hello%20brian&count=25&order=ascending&license=cc-by
+
+// Expected: https://api.inaturalist.org/v2/observations?query=hello%20brian&count=25&order=ascending&license=cc-by
+console.log(buildUrl("hello brian", "ascending", 25, "cc-by"));
+
+// Expected: https://api.inaturalist.org/v2/observations?query=hellobrian&count=50&order=descending&license=none
 console.log(buildUrl("hellobrian", "descending", 50, "none"));
