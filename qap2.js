@@ -34,7 +34,7 @@ function snake(value) {
   return (
     value
       .trim()
-      // Replace internal spaces, tabs, or dots with underscores
+      // Replaces all internal spaces, tabs, or dots with underscores
       .replace(/[\s\.]+/g, "_")
       // Convert to lowercase
       .toLowerCase()
@@ -43,6 +43,7 @@ function snake(value) {
 
 console.log();
 console.log("Problem 1: ");
+
 console.log(snake("abc")); // abc
 console.log(snake(" ABC ")); // abc
 console.log(snake("ABC")); // abc
@@ -106,15 +107,19 @@ console.log(snake(" A..  B   C ")); // a_b_c
  * ******************************************************************************/
 
 function createVideo(src, width, controls) {
-  // Replace this comment with your code...
+  // trims trailing whitespace from src
   let srcAttr = `src="${src.trim()}"`;
+  // checks if width is an integer and adds it to the video element
   let widthAttr = Number.isInteger(width) ? `width="${width}"` : "";
+  // checks if controls is true and adds it to the video element
   let controlsAttr = controls ? true : false;
+
   return `<video ${srcAttr} ${widthAttr} ${controlsAttr}></video>`;
 }
 
 console.log();
 console.log("Problem 2: ");
+
 console.log(
   createVideo(
     "http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_60fps_normal.mp4",
@@ -218,6 +223,7 @@ function parseDateString(value) {
 // Test cases
 console.log();
 console.log("Problem 3: ");
+
 // Fri Jan 01 2021 00:00:00 GMT-0500 (Eastern Standard Time)
 console.log(parseDateString("2021-01-01"));
 // Wed Sep 29 2021 00:00:00 GMT-0400 (Eastern Daylight Time)
@@ -312,6 +318,7 @@ function toDateString(value) {
 
 console.log();
 console.log("Problem 4:");
+
 // 2021-01-29
 console.log(toDateString(new Date("2021-01-29")));
 // 2021-09-29
