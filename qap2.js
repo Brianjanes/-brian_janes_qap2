@@ -934,7 +934,7 @@ function buildUrl(query, order, count, license) {
     throw new Error('Order must be either "ascending" or "descending".');
   }
 
-  if (typeof count != "number" || count <= 1 || count > 50) {
+  if (typeof count != "number" || count < 1 || count > 50) {
     throw new Error("Count must be a number between 1 and 50.");
   }
 
